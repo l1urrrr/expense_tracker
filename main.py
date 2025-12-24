@@ -1,16 +1,16 @@
-# This is a sample Python script.
+"""
+requirements:
+*user enters expense
+*save expense to csv file
+*summarise expense totals
+*show remaining budget
+"""
+from tkinter import *
+from expense import Expense
+budget = 0
+expense = Expense
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# expense_window = Tk()
+# expense_window.geometry("300x300")
+# expense_window.mainloop()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
